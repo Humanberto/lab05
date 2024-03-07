@@ -13,5 +13,9 @@ do {
         alert('One or both entries are invalid.');
     }
     again = prompt('Run application again? (y or n)', 'y');
+        if  (again !== 'y' && again !==  'n') {
+        alert ('Invalid response, please enter y for yes and n for no');
 } while (again === 'y');
+
 console.log('Application has exited.');
+}
